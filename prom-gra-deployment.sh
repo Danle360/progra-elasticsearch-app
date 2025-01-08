@@ -1,5 +1,6 @@
 #!/bin/bash
 #Add prometheus helm charts
+sleep 30
 helm repo add prometheus https://prometheus-community.github.io/helm-charts
 sleep 40
 #Add grafana helm charts
