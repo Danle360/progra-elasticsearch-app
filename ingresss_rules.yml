@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: prm.eagunu4live.cloud
+    - host: prm.demonet.site
       http:
         paths:
           - pathType: Prefix
@@ -16,7 +16,7 @@ spec:
                 port:
                   number: 80
             path: /
-    - host: mgr.eagunu4live.cloud
+    - host: mgr.demonet.site
       http:
         paths:
           - pathType: Prefix
@@ -26,7 +26,7 @@ spec:
                 port:
                   number: 80
             path: /
-    - host: gra.eagunu4live.cloud
+    - host: gra.demonet.site
       http:
         paths:
           - pathType: Prefix
