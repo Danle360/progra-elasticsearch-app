@@ -1,1 +1,1 @@
-# progra-elasticsearch-app
+# pgrykubernetes-ingress
