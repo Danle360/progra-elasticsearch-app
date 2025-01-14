@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: prm.cluster4live.com
+    - host: prm.damandan.com
       http:
         paths:
           - pathType: Prefix
@@ -16,7 +16,7 @@ spec:
                 port:
                   number: 80
             path: /
-    - host: mgr.cluster4live.com
+    - host: mgr.damandan.com
       http:
         paths:
           - pathType: Prefix
@@ -26,7 +26,7 @@ spec:
                 port:
                   number: 80
             path: /
-    - host: gra.cluster4live.com
+    - host: gra.damandan.com
       http:
         paths:
           - pathType: Prefix
